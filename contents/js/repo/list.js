@@ -1,4 +1,3 @@
-// Q: How is this js file loaded?
 function repoList(){
 
     console.log('listing repos')    

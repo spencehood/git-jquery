@@ -1,0 +1,17 @@
+each item in items
+	div.row 
+		div.four.columns
+			a(href="item.repo.url")
+				= item.repo.name
+				br
+				= item.id
+		div.four.columns
+			a(href= item.actor.url)
+				img(src=item.actor.avatar_url, width=55, height=55)
+		div.four.columns
+			= "Public:  " + item.public
+		div.four.columns
+			= "Login:  " + item.actor.login
+
+		hr
+			
